@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app>
+  <listener>
+    <listener-class>HelloWorldContextListener</listener-class>
+  </listener>
   <servlet>
     <servlet-name>HelloWorld</servlet-name>
-    <servlet-class>HelloWorld</servlet-class>
+    <servlet-class>HelloWorldServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HelloWorld</servlet-name>
